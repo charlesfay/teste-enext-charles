@@ -1,36 +1,155 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Merlin's Potions</title>
 
-<html lang="pt">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
-<head>
-	<title>Merlin's Potions</title>
-	<meta charset="utf8"/>
-</head>
-
-<body>
-	<header>
-	
-	</header>
-	
-	<nav>
-		<ul>
-			<li>Potions</li>
-			<li>Ingredients</li>
-			<li>Books</li>
-			<li>Supplies</li>
-			<li>Charms</li>
-			<li>Clearance!</li>
-		</ul>
-	</nav>
-	
-	<section>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+	<div class="container">		
 		
-	</section>
-	
-	<footer>
-		&copy Merlin's Potions. All Rights Reserved
-	</footer>
-	
-</body>
+		<header>
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4">
+					<div class="logo">						
+						<img src="imagens/logo.png">
+					</div>
+				</div>
+				
+				<div class="cols-xs-4 col-sm-4 col-md-4">
+					<div class="busca">
+						<span><a href="#"><img src="imagens/lupa.png"></a></span><input type="text" name="buscar">
+					</div>
+				</div>
+				
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<div class="frete">						
+						<p class="big"><strong>Free shipping</strong></p>
+						<p>on orders over $50</p>
+					</div>
+				</div>
+				
+				<div class="col-xs-2 col-sm-2 col-md-2 bag">				
+					<div class="carrinho">
+							<span><img src="imagens/carrinho.png"></span>BAG: <span>1</span>
+					</div>
+				</div>
+			</div>
+		</header>		
+		
+		<nav>
+			<div class="row">			
+				<div class="col-md-8 menu">
+					<ul>
+					  <li>
+						<a href="#">Potions <span class="glyphicon glyphicon-triangle-bottom ico" aria-hidden="true"></span></a>
+						<a href="#">Ingredients<span class="glyphicon glyphicon-triangle-bottom ico" aria-hidden="true"></span></a>
+						<a href="#">Books<span class="glyphicon glyphicon-triangle-bottom ico" aria-hidden="true"></span></a>
+						<a href="#">Supplies<span class="glyphicon glyphicon-triangle-bottom ico" aria-hidden="true"></span></a>
+						<a href="#">Charms<span class="glyphicon glyphicon-triangle-bottom ico" aria-hidden="true"></span></a>
+						<a href="#">Clearance!</a>
+					  </li>
+					</ul>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="login">
+						<ul>
+						  <li>
+							<a href="#">Sign In</a>
+							<span>or</span>
+							<a href="#">Sign Up</a>							
+						  </li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+		</nav>		
+		
+		<section>
+			<div class="row">
+				<div class="title">				
+					<div class="col-xs-12 col-sm-12 col-md-12"><h1>Potions</h1></div>
+					<div class="col-xs-10 col-sm-10 col-md-10"></div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p1.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p2.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p3.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p4.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p5.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 produto">
+					<img src="imagens/produtos/p6.png" title="">
+					<p>Aging Potion - <span>$29.99</span></p>	
+				</div>
+			</div>
+		</section>	
 
+		<footer>
+			<div class="row">
+				<div class="rodape">				
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						SOCIAL					
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<div class="newsletter">
+							<p class="big2">Sign up for our Newsletter</p>
+							<p>Sign up for our Newsletter & get exclusive discounts!</p>
+							
+							<input type="mail" name="email" placeholder="Enter your email">
+							<button type="button" class="btn btn-default navbar-btn">SUBMIT</button>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="espaco"></div>
+					</div>					
+				</div>
+			</div>
+		</footer>
+				
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

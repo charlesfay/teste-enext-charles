@@ -1,0 +1,221 @@
+/*	
+    =====================================
+	GLOBAL
+	=====================================
+*/
+
+*{
+	margin:0px;
+	padding:0px;	
+}
+
+footer{
+	background-color:#E6E6E6;
+}
+
+.container{
+	border:solid 1px red;
+}
+
+/*	
+    =====================================
+	HEADER
+	=====================================
+*/
+
+.logo{
+	padding:30px;
+}
+
+.busca{
+	border:1px solid #666;
+	border-radius:4px;
+	width:250px;
+	height:35px;
+	margin-top:10%;
+	text-align:center;
+}
+
+.busca input{
+	border:0;
+	height:25px;
+}
+
+.busca input:focus{
+	outline:none;
+}
+
+.busca img{
+	padding:5px;
+	margin-left:-35px;
+}
+
+.frete{
+	margin-top:15%;
+}
+
+.frete p{
+	color:#D73A1E;	
+	font-style:oblique;
+}
+
+.big{
+	font-style:oblique;
+	font-size:19px;
+	color:#D73A1E;
+	margin-bottom:-1px;
+}
+
+.carrinho{
+	margin-top:15%;
+	color:#ccc;	
+	font-weight:bold;
+}
+
+.carrinho span{
+	margin-right:15px;
+	color:#D73A1E;
+	font-weight:bold;
+}
+
+/*	
+    =====================================
+	NAV
+	=====================================
+*/
+
+.menu{
+	text-align:right;
+	font-style:oblique;
+}
+
+.login{
+	text-align:center;
+	font-style:oblique;
+}
+
+.login span{
+	color: #B297AF;
+	margin-right:5px;
+}
+
+.container nav{
+	background:#523468;
+	color:#fff;
+	height:60px;
+}
+
+.container nav ul{
+	padding:20px;
+    text-decoration:none;
+	list-style:none;
+}
+
+.container nav ul li a{
+	padding:10px;
+	border-radius:4px;
+	margin-right:5px;
+}
+
+.container nav ul li a:hover{
+	background-color:#422A53;
+}
+
+.container nav a{
+	color:#fff;
+}
+
+.container nav a:hover{
+	text-decoration:none;
+}
+
+.ico{
+	font-size:10px;
+	margin-left:3px;
+}
+
+/*	
+    =====================================
+	CONTENT
+	=====================================
+*/
+
+.title{
+	padding-left:40px;
+	padding-bottom:30px;
+}
+
+.produto{
+	text-align:center;
+	padding:30px;
+}
+
+.produto p{	
+	font-weight:bold;
+	font-size:14px;
+}
+
+.produto span{
+	color:red;
+	font-weight:normal;
+}
+
+.produto img{	
+	margin-bottom:2px;
+}
+
+.produto img:hover{	
+	cursor:pointer;
+	opacity:0.5;
+}
+
+/*	
+    =====================================
+	FOOTER
+	=====================================
+*/
+
+.rodape{	
+	padding:30px;
+}
+
+.newsletter{
+	background-color:#fff;
+	height:180px;
+	border-radius:6px;
+	padding:30px;
+}
+
+.newsletter input{
+	width:250px;
+	height:33px;
+	border:solid 1px #666;
+	border-radius:4px;
+	padding-left:10px;
+}
+
+.newsletter button{
+	border:0;
+	background-color:#D73A1E;
+	font-size:16px;
+	color:#fff;
+}
+
+.newsletter button:hover{
+	border:0;
+	background-color:#000;
+	font-size:16px;
+	color:#fff;
+}
+
+.big2{
+	font-style:oblique;
+	font-size:19px;
+}
+
+.espaco{
+	height:60px;
+}
+
+
+
